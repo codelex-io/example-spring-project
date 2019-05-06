@@ -1,0 +1,25 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.4.RELEASE'
+	id 'java'
+	id 'checkstyle'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'io.codelex'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+checkstyle {
+	toolVersion = "8.17"
+	maxWarnings = 0
+}
