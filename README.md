@@ -7,7 +7,7 @@ Generate your project at [start.spring.io](https://start.spring.io/), choose:
  - Gradle project
  - Java
  - Latest stable version (highest number without any suffixes)
- - use *codelex.io* as group
+ - use *io.codelex* as group
  - use appropriate name for your project
  - *jar* packaging
 
@@ -55,6 +55,6 @@ Copy [azure-pipelines.yml](./azure-pipelines.yml) & [Dockerfile](./Dockerfile) i
 
 ### Checking build status
 
-After each push your application will be built automatically, you can follow the progress at [dev.azure.com](https://dev.azure.com)
+From now on each pull request you make will be built automatically, you can follow the progress at [dev.azure.com](https://dev.azure.com)
 
 ![Azure pipelines](./assets/azure-pipelines.png)
