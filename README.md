@@ -31,6 +31,8 @@ We will be working according to [./config/checkstyle](./config/checkstyle).
 
 Make sure that you are using the latest version of the plugin, [see instructions](https://stackoverflow.com/questions/26548931/gradle-change-checkstyle-version)
 
+![Checkstyle setup](./assets/checkstyle-setup.png)
+
 After adding the plugin - `checkstyle` tasks for main & test sources must show up.
 
 ![Checkstyle](./assets/gradle-checkstyle.png)
